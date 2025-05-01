@@ -1,0 +1,85 @@
+/* BODY */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #eaf3ff, #cfdfff);
+    color: #333333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* HEADER / JUDUL BOX */
+  .box {
+    width: 100%;
+    height: 50px;
+    background-color: #5879f1; /* disesuaikan dengan tema biru */
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+  
+  /* SECTION UTAMA */
+  section {
+    text-align: center;
+    border: 2px solid #6987f5; /* disesuaikan dengan aksen biru */
+    box-sizing: border-box;
+    margin: 250px auto;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 800px;
+    background-color: #ffffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+
+/* UMUM: Ganti font dan hilangkan garis bawah link */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #5681de;
+}
+
+/* TOMBOL PENDAFTARAN */
+.pendaftaran {
+  background-color: #5681de; /* sesuai tema biru tua */
+  color: white;
+  display: inline-block;
+  padding: 15px 25px; /* menggantikan fixed width/height dengan padding */
+  font-size: 1em;
+  text-align: center;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.pendaftaran:hover {
+  background-color: #1e47a7;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* GRUP TOMBOL */
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* spasi antar tombol */
+    margin-top: 20px;
+}
+
+  

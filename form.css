@@ -1,0 +1,134 @@
+/* Reset dasar */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #eaf3ff, #cfdfff);
+    color: #2c3e50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140vh;
+    flex-direction: column;
+    padding: 30px;
+  }
+  
+  /* Form container */
+  form {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 40px 35px;
+    width: 100%;
+    max-width: 480px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  form:hover {
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  fieldset {
+    border: none;
+  }
+  
+  legend {
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #3e549d;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  
+  /* Label dan paragraf */
+  p {
+    margin-bottom: 18px;
+    font-size: 1em;
+    color: #2c3e50;
+    font-weight: 600;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #2c3e50;
+  }
+  
+  /* Input umum */
+  input[type="text"],
+  input[type="password"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 4px;
+    font-size: 0.95em;
+    transition: border-color 0.3s;
+  }
+  
+  input:focus,
+  select:focus,
+  textarea:focus {
+    border-color: #4f6ee2;
+    outline: none;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 8px;
+    transform: scale(1.1);
+    margin-top: 8px;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  /* Tombol submit */
+  input[type="submit"] {
+    background-color: #4f6ee2;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #6084c3;
+  }
+  
+  /* Tombol back */
+  button.back {
+    margin-top: 30px;
+    padding: 10px 25px;
+    font-size: 1em;
+    border: none;
+    border-radius: 25px;
+    background-color: #436abd;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.back a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  button.back:hover {
+    background-color: #508dcf;
+  }
+  
