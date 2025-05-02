@@ -1,0 +1,67 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #4b6cb7, #182848);
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 40px 50px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+  width: 90%;
+  max-width: 500px;
+}
+
+h1 {
+  margin-bottom: 25px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hobby-list {
+  list-style-type: none;
+  padding: 0;
+  font-size: 20px;
+  line-height: 2em;
+  margin-bottom: 30px;
+}
+
+.hobby-list li {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.hobby-list li:hover {
+  color: #70a1ff;
+  cursor: default;
+  transform: translateY(-4px);
+  transition: all 0.2s ease;
+}
+
+.back-btn {
+  display: inline-block;
+  background: #576574;
+  padding: 12px 28px;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.back-btn:hover {
+  background: #3742fa;
+}
